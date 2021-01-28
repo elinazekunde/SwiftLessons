@@ -80,12 +80,12 @@ var anotherString: String
 var stringNumber = "123"
 var convertToInt = Int(stringNumber)
 
-print(convertToInt)
+//print(convertToInt)
 
 if convertToInt == nil {
     print("convertToInt does not contain a value")
 } else {
-    print("conertToInt:", convertToInt)
+    print("conertToInt:", convertToInt!)
 }
 
 let optionalString: String? = "100"
